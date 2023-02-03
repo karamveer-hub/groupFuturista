@@ -1,0 +1,63 @@
+@media screen and (min-width:768px){
+
+    .display_flex{
+        flex-direction: row;
+    }
+    .first_div{
+        h2{
+            font-size: 30px;
+        }
+    }
+
+
+
+    .header{
+        .container{
+
+            nav.mobile{
+                display: none;
+            }
+            nav.desktop,#contact{
+                display: block;
+            }
+            
+        }
+    }
+    .banner{
+        min-height: 600px;
+    }
+    .second_fold{
+        .container{
+            div{
+                width: 50%;
+            }
+            .second_div{
+                align-items: center;
+                div{
+                    width: 50%;
+                    padding:5px;
+                    img{
+                       width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .third_fold{
+        .container{
+            .cards{
+                .card{
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1220px){
+       .first_div{
+        h2{
+            font-size: 45px;
+        }
+    }
+}
